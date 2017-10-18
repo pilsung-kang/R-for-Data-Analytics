@@ -11,10 +11,14 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
   * Due date: 2017. 09. 30. 24:00 EST.
   * List of students who have hot submitted the result (DataCamp Certificate) of first assignment
   * aljohani talal mohammed, 김동규
-* Assignment 2: Fill the blanks (marked with ???) in the Assignment 2 R script (See the R Instroduction 1 folder)
+* Assignment 2: Fill the blanks (marked with ???) in the Assignment 2 R script (See the R Introduction 1 folder)
   * Use either English version or Korean version
   * Send the completed R script via E-mail: dsba.koreauniv@gmail.com
   * Due date: 2017. 10. 25. 24:00 EST.
+* Assignment 3: Fill the blanks (marked with ???) in the Assignment 3 Rmd file (See the R Introduction 2 folder)
+  * Use either English version or Korean version
+  * Send the RMD source code and compiled HTML files via E-mail: dsba.koreauniv@gmail.com
+  * Due date: 2017. 11. 08. 24:00 EST.
 
 ## Schedule
 
