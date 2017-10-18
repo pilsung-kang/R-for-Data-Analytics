@@ -1,0 +1,173 @@
+---
+title: "Assingment 3""
+author: "Your student ID & Name"
+date: "submission date"
+output: html_document
+---
+
+
+1. Complete the script below that prints each element of the variable "game" with "for" loop.
+
+```{r eval=FALSE} 
+game = c("Rock", "Papers", "Scissors")
+
+for(i in 1:???){
+    print(???)
+}
+
+```
+
+2. Complete the script below that determine whether the argument is even or odd.
+The returned value should be logical (TRUE if the argument is even and FALSE if the argument is odd)
+
+```{r eval=FALSE}
+is_even <- function(x){
+    ???
+}
+
+print(is_even(123))
+```
+
+3. Complete the function below whose argument is a number and the output is the sum of all digits.
+(Example: input 12345, output: 15(1+2+3+4+5))
+
+```{r digit_sum}
+digit_sum <- function(n) {
+    if (n < 10) {
+        return(n)
+    } else {
+        return((n %% 10) + digit_sum(as.integer(n / 10)))
+    }
+}
+digit_sum(12345)
+```
+
+4. A businessman "KPS" attempt to make a function with the following arguments and the output
+- Arguments: the number of days of a business trip & the city of business trip
+- Output: Total cost for the business trip
+
+4-1. Write a function that returns the total cost of hotel
+- Argument: the number of nights he stays
+- Hotel rate: 140 USD/night
+- Output: total cost for the hotel
+
+```{r eval=FALSE}
+hotel_cost <- function(nights){
+    ???
+}
+```
+
+4-2. Write a function that returns the transportation cost
+- Argument: city name
+- Transportation cost: 120 USD (Daejeon), 400 USD (Busan), 370 (Gwangju), 250 (Daegu)
+- Output: Transportation cost for the given city
+
+```{r eval=FALSE}
+plane_ride_cost <- function(city){
+    ???
+}
+```
+
+4-3. The cost of rental car is 40 USD per day.
+One can save 50 USD if he/she rents a car more than seven days, or 20 USD if he/she rents a car more than 3 days
+Write a function that returens the total cost of rental car.
+- Argument: the number of days for rent
+- Output: Total cost
+
+```{r eval=FALSE}
+rental_car_cost <- function(days)
+{
+    if(days >= 7){
+        ???
+    } 
+    else if(days >= 3){
+        ???
+    } 
+    else{
+        ???
+    }
+}
+```
+
+4-4. Write a function that returns the total cost of a business trip.
+User the functions defined by 4-1, 4-2, and 4-3.
+- Argument: city, nights, and days
+- Output: Total cost
+
+```{r eval=FALSE}
+trip_cost <- function(city, nights, days){
+    ???
+}
+
+```
+
+
+5. You are supposed to make a classic board game called "Battleship".
+In this game, a player should guess the exact position of the battleship that is determined at random on the size of 5x5 board.
+Intially, all cells in the board are marked as "O" and chaned to "X" if the player's guess is wrong.
+The player have five opportunities to find the battleship.
+Once he/she chooses a wrong position, the number of opportunities is decreases by 1.
+
+```{r battle_ship}
+board = matrix("O", nrow=5, ncol=5)
+
+ship_row = sample(1:5, 1)
+ship_col = sample(1:5, 1)
+miss = 0
+
+print(board)
+```
+
+The player enters one value (between 1 and 5) for guess_row and one value (between 1 and 5) for guess_col
+
+5-1. If the player find the correct position of the battleship, exit the game with the following message.
+"Congratulation! You destroyed the enemy."
+
+5.2. If the position is outside the 5x5 board, print the following message.
+"You enter an invalid position."
+
+5-3. If the player enters a position that was checked before, print the following message.
+"This position was already checked."
+
+5-4. If the player select the wrong position, print the following message and change the mark of the position from "O" to "X".
+"Failed to destroy the enemy."
+
+
+```{r eval=FALSE}
+for(i in 1:5){
+    if(i == 5){
+        print("Game over")
+        break
+    }
+    guess_row = scan("", nmax=1, what = integer()) # Player provide the value
+    guess_col = scan("", nmax=1, what = integer()) # Player provide the value
+ 
+    #### 5-1 ####
+    if(???){ 
+        ???
+    }   
+    #############
+    else{
+        #### 5-2 ####
+        if(???){
+            print("You enter an invalid position.")
+        }
+        #### 5-3 ####
+        else if(???){
+            print("This position was already checked.")
+        }
+        #### 5-4 ####
+        else{
+            print("Failed to destroy the enemy.")
+            ??? = "X"
+        }
+        miss = miss + 1
+        cat("Miss : ", miss, "\n")
+    }
+    cat("turn : ", i, "\n")
+    print(board)
+    
+}
+
+```
+
