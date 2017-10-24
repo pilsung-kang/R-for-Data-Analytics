@@ -9,8 +9,6 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
   * [DataCamp: Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
   * Send the certification via E-mail: dsba.koreauniv@gmail.com
   * Due date: 2017. 09. 30. 24:00 EST.
-  * List of students who have hot submitted the result (DataCamp Certificate) of first assignment
-  * aljohani talal mohammed, 김동규
 * Assignment 2: Fill the blanks (marked with ???) in the Assignment 2 R script (See the R Introduction 1 folder)
   * Use either English version or Korean version
   * Send the completed R script via E-mail: dsba.koreauniv@gmail.com
