@@ -3,7 +3,7 @@ install.packages("Rfacebook")
 library(Rfacebook)
 
 # Authentication Setting
-my_oauth <- fbOAuth(app_id = "your app_id", app_secret= "your app_secret")
+my_oauth <- fbOAuth(app_id = "104477360011407", app_secret= "aeab0b819ddcbf4bca2decab0ba22878")
 save(my_oauth, file = "my_oauth")
 load("my_oauth")
 

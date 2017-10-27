@@ -1,5 +1,8 @@
 # Case 4: Web Scraping (arXiv Papers) -----------------------------------------
-install.packages("dplyr", "stringr", "httr", "rvest")
+install.packages("dplyr")
+install.packages("stringr")
+install.packages("httr")
+install.packages("rvest")
 
 library(dplyr)
 library(stringr)

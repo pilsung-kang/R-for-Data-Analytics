@@ -40,7 +40,10 @@ xpathSApply(root, "//book[price > 35]/title", xmlValue)
 xpathSApply(root, "//book[@category = 'web' and price > 40]/price", xmlValue)
 
 # Case 3: Web Scraping (arXiv Papers) -----------------------------------------
-install.packages("dplyr", "stringr", "httr", "rvest")
+install.packages("dplyr")
+install.packages("stringr")
+install.packages("httr")
+install.packages("rvest")
 
 library(dplyr)
 library(stringr)

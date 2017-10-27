@@ -1,12 +1,15 @@
 # Case 5: Web Scraping (Naver Apartment) -----------------------------------------
-install.packages("dplyr", "stringr", "httr", "rvest")
+install.packages("dplyr")
+install.packages("stringr")
+install.packages("httr")
+install.packages("rvest")
 
 library(dplyr)
 library(stringr)
 library(httr)
 library(rvest)
 
-url <- 'http://land.naver.com/article/articleList.nhn?rletTypeCd=A01&tradeTypeCd=A1&rletNo=25827&cortarNo=1129013500&hscpTypeCd=A01%3AA03%3AA04&mapX=&mapY=&mapLevel=&page=1&articlePage=&ptpNo=&rltrId=&mnex=&bildNo=&articleOrderCode=&cpId=&period=&prodTab=&atclNo=&atclRletTypeCd=&location=2160&bbs_tp_cd=&sort=&siteOrderCode=&schlCd=&tradYy=&exclsSpc=&splySpcR=&cmplYn=#_content_list_target'
+url <- 'http://land.naver.com/article/articleList.nhn?rletTypeCd=A01&tradeTypeCd=A1&rletNo=25827&cortarNo=1129013500&hscpTypeCd=A01%3AA03%3AA04&mapX=&mapY=&mapLevel=&page=1&articlePage=&ptpNo=&rltrId=&mnex=&bildNo=&articleOrderCode=&cpId=&period=&prodTab=&atclNo=&atclRletTypeCd=&location=1476&bbs_tp_cd=&sort=&siteOrderCode=&schlCd=&tradYy=&exclsSpc=&splySpcR=&cmplYn=#_content_list_target'
 start <- proc.time()
 Building <- NULL
 Top_Floor <- NULL
@@ -97,9 +100,10 @@ for( i in c(1:3)){
       Area2 <- c(Area2, tmp_Area2)
       
     }, error = function(e){print("Invalid conversion, skip the post")})
+    
+    Sys.sleep(3)
+    
   }
-  Sys.sleep(10)
-  
 }
 
 APT <- data.frame(Building, Top_Floor, Floor, Area1, Area2, Price)
@@ -108,11 +112,3 @@ end - start # Total Elapsed Time
 
 # Export the result
 write.csv(APT, file = "APT_Price.csv")
-
-
-                
-
-
-
-
-
