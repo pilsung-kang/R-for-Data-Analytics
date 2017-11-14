@@ -39,3 +39,10 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 ## Data Collection from the Web
 * Collect data using APIs: Twittwer & Facebook
 * Web Scraping: ArXiv, PPOMPPU, NAVER
+
+## Text Data Analysis
+* Text preprocessing
+* Text representation
+* Text summarization
+* Case study 1: Obama's present vs. past
+* Case study 2: Obama vs. Romney
