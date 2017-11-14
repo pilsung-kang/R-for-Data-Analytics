@@ -1,0 +1,84 @@
+---
+title: "assignment4"
+output: html_document
+---
+
+# fill the blank (???) based on the instruction
+
+# Question 1
+#### 1-1 ) Create your own twitter api account and fill the necessary information below.
+```{r 1-1}
+consumer_key= ???
+consumer_secret= ???
+access_token = ???
+access_secret = ???
+```
+
+# Question 1
+#### 1-2 ) Complte the authentication process with your own key information.
+```{r 1-2}
+???(consumer_key, consumer_secret, access_token, access_secret)
+```
+
+# Question 1
+#### 1-3 ) Get the recent 100 tweets from @Google account and print the first 10 tweets.
+```{r 1-3}
+GoogleTweets <- ???(???)
+```
+
+# Question 1
+#### 1-4 ) Get the tweets with the hashtag #Yolo posted in the recent 7 days and print the first 10 tweets.
+
+```{r 1-4}
+YoloTweets  <- ???(???)
+```
+
+# Question 2: Skip for the foreign students
+
+# Question 3  
+#### 3 ) Visit the arXiv website (https://arxiv.org/)
+# Search the research papers with the keyword "deep learning"
+# For the first 50 papers in the result page 1 and 2, collect the subheader, title, author, subject, and dateline.
+# Save the resulted dataframe as a csv file.
+```{r}
+
+for( i in c(???)){
+  
+  tmp_url <- modify_url(url, query = list(skip = i))
+  tmp_list <- read_html(tmp_url) %>% html_nodes('div#dlpage') %>% html_nodes('a[title="Abstract"]') %>% html_attr('href')
+  tmp_list <- paste0('https://arxiv.org',tmp_list)
+  
+  for(j in 1:length(tmp_list)){
+    
+    tmp_paragraph <- ???(tmp_list[j])
+    
+    # subHeader
+    tmp_subHeader <- tmp_paragraph %>% html_nodes(???) %>% html_text(T)
+    subHeader <- c(subHeader, tmp_subHeader)
+    
+    # title
+    tmp_title <- gsub('Title:\n', '',tmp_paragraph %>% html_nodes(???) %>% html_text(T))
+    title <- c(title, tmp_title)
+    
+    # author
+    tmp_author <- tmp_paragraph %>% html_nodes(???) %>% html_text
+    tmp_author <- gsub('\\s+',' ',tmp_author)
+    tmp_author <- gsub('Authors:','',tmp_author) %>% str_trim
+    author <- c(author, tmp_author)  
+    
+    # subject
+    tmp_subject <- tmp_paragraph %>% html_nodes(???) %>% html_text(T)
+    subject <- c(subject, tmp_subject)
+    
+    # dataLine
+    tmp_dataLine <- tmp_paragraph %>% html_nodes(???) %>% html_text(T)
+    dataLine <- c(dataLine, tmp_dataLine)
+  }
+}
+final <- ???
+
+# Export the result
+write.csv(???, file = "Deep Learning arxiv papers.csv")
+```
+
+# Question 4: Skip the foreign students
