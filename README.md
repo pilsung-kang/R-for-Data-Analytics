@@ -17,7 +17,7 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
   * Use either English version or Korean version
   * Send the RMD source code and compiled HTML files via E-mail: dsba.koreauniv@gmail.com
   * Due date: 2017. 11. 12. 24:00 EST.
-* Assignment 4: Fill the blanks (marked with ???) in the Assignment 4 Rmd file (See the 
+* Assignment 4: Fill the blanks (marked with ???) in the Assignment 4 Rmd file (See the Data Collection from the Web folder)
   * Send the RMD source code and compiled HTML files via E-mail: dsba.koreauniv@gmail.com
   * Due date: 2017. 12. 10. 24:00 EST.
 
