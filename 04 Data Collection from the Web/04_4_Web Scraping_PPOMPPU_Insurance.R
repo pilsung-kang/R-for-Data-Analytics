@@ -65,7 +65,7 @@ for( i in c(1:10)){
 }
 
 end <- proc.time()
-end - start # Total Elapsed Time (1776 seconds in i7-4770)
+end - start # Total Elapsed Time
 
 # Export the result
 write.csv(ppomppu_insurance, file = "ppomppu_insurance.csv")
