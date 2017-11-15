@@ -20,8 +20,11 @@ for( i in c(1:10)){
   tryCatch({
     
     tmp_url <- paste(url, i, '&divpage=10', sep="")
-    tmp_list <- read_html(tmp_url) %>% html_nodes('tr.list1') %>% html_nodes('a') %>% html_attr('href')
-    tmp_list <- paste0('http://www.ppomppu.co.kr/zboard/',tmp_list)
+    tmp_list0 <- read_html(tmp_url) %>% html_nodes('tr.list0') %>% html_nodes('a') %>% html_attr('href')
+    tmp_list1 <- read_html(tmp_url) %>% html_nodes('tr.list1') %>% html_nodes('a') %>% html_attr('href')
+    tmp_list0 <- paste0('http://www.ppomppu.co.kr/zboard/',tmp_list0)
+    tmp_list1 <- paste0('http://www.ppomppu.co.kr/zboard/',tmp_list1)
+    tmp_list <- c(tmp_list0, tmp_list1)
     
     for(j in 1:length(tmp_list)){
       
