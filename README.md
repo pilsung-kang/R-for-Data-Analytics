@@ -21,8 +21,8 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
   * Send the RMD source code and compiled HTML files via E-mail: dsba.koreauniv@gmail.com
   * Due date: 2017. 12. 10. 24:00 EST.
 * Assignment scores: [download](https://www.dropbox.com/s/ihgx51begh1uzo7/2017_2_Score%20sheet_students.xlsx?dl=0)
-  * TA for Assignment 2: Myeoungjun Chang (New Engineering Building 213)
-  * TA for Assignment 3: Jaeyun Jeong (New Engineering Building 212)
+  * TA for Assignment 2: Myeoungjun Chang (New Engineering Hall 213)
+  * TA for Assignment 3: Jaeyun Jeong (New Engineering Hall 212)
 
 ## Schedule
 
