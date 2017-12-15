@@ -1,6 +1,10 @@
 # R-for-Data-Analytics
 Course homepage of "Programming Language for Data Analytics" @Korea University
 
+## Notice on the final exam
+* Time: 2017-12-20 10:30 ~ 11:45
+* Place: 218 New Engineering Hall
+
 ## Syllabus
 * [Download](https://www.dropbox.com/s/d7h3n29c5ntbdp8/2017_2_Program%20Language%20for%20Data%20Analytics.pdf?dl=0)
 
