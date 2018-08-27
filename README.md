@@ -1,6 +1,10 @@
 # R-for-Data-Analytics
 Course homepage of "Programming Language for Data Analytics" @Korea University
 
+## Notice on the final exam
+* Time: 2017-12-20 10:30 ~ 11:45
+* Place: 218 New Engineering Hall
+
 ## Syllabus
 * [Download](https://www.dropbox.com/s/d7h3n29c5ntbdp8/2017_2_Program%20Language%20for%20Data%20Analytics.pdf?dl=0)
 
@@ -20,6 +24,9 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * Assignment 4: Fill the blanks (marked with ???) in the Assignment 4 Rmd file (See the Data Collection from the Web folder)
   * Send the RMD source code and compiled HTML files via E-mail: dsba.koreauniv@gmail.com
   * Due date: 2017. 12. 10. 24:00 EST.
+* Assignment scores: [download](https://www.dropbox.com/s/ihgx51begh1uzo7/2017_2_Score%20sheet_students.xlsx?dl=0)
+  * TA for Assignment 2: Myeoungjun Chang (New Engineering Hall 213)
+  * TA for Assignment 3: Jaeyun Jeong (New Engineering Hall 212)
 
 ## Schedule
 
