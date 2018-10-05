@@ -8,7 +8,9 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * Assignment 1: Complete the "Introduction to R" course in DataCamp
   * [DataCamp: Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
   * Send the certification via E-mail: dsba.koreauniv@gmail.com
-  * Due date: 2018. 09. 30. 23:59 EST.
+  * Due date: 2018. 09. 30.
+  * [Result](https://www.dropbox.com/s/ron2alwi192di5e/Assignment%201_Result.pdf?dl=0)
+* Assignment 2: 
 
 ## Schedule
 
