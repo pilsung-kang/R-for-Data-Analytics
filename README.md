@@ -11,6 +11,7 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
   * Due date: 2018. 09. 30.
   * [Result](https://www.dropbox.com/s/ron2alwi192di5e/Assignment%201_Result.pdf?dl=0)
 * Assignment 2: Fill the blanks in the Assignment 2_Kor(or ENG).R script
+  * [Korean version](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/02%20Introduction%20to%20R_Part%201/Assignment%202/Assignment2_Questions_Kor.R)
   * Send the script via E-mail: dsba.koreauniv@gmail.com
   * Due date: 2018. 10. 18. 11:59.
 
