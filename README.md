@@ -10,7 +10,9 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
   * Send the certification via E-mail: dsba.koreauniv@gmail.com
   * Due date: 2018. 09. 30.
   * [Result](https://www.dropbox.com/s/ron2alwi192di5e/Assignment%201_Result.pdf?dl=0)
-* Assignment 2: 
+* Assignment 2: Fill the blanks in the Assignment 2_Kor(or ENG).R script
+  * Send the script via E-mail: dsba.koreauniv@gmail.com
+  * Due date: 2018. 10. 18. 11:59.
 
 ## Schedule
 
