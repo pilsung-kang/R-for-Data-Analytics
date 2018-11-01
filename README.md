@@ -13,8 +13,13 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * Assignment 2: Fill the blanks in the Assignment 2_Kor(or ENG).R script
   * [Korean version](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/02%20Introduction%20to%20R_Part%201/Assignment%202/Assignment2_Questions_Kor.R)
   * [English version](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/02%20Introduction%20to%20R_Part%201/Assignment%202/Assignment2_Questions_Eng.R)
-  * Send the script via E-mail: dsba.koreauniv@gmail.com
-  * Due date: 2018. 10. 18. 11:59.
+  * Submit the script via E-mail: dsba.koreauniv@gmail.com
+  * Due date: 2018. 10. 18. 23:59.
+* Assignment 3: Fill the blanks(???) in the Assignment 3_Kor(or ENG).Rmd file
+  * [Korean version](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20Introduction%20to%20R_Part%202/Assignment%203/Assignment%203_Questions_Kor.Rmd)
+  * [English version](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20Introduction%20to%20R_Part%202/Assignment%203/Assignment%203_Questions_Eng.Rmd)
+  * Submit the Rmd file and its HTML output via E-mail: dsba.koreauniv@gmail.com
+  * Due date: 2018. 11. 15. 23:59.
 
 ## Schedule
 
