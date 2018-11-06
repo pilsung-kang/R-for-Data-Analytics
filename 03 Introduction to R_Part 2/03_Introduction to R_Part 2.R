@@ -166,40 +166,40 @@ udcorr(temp,pressure)
 
 
 # Part 5: R Graphs --------------------------------------------------------
-# R에서 사용하는 그래프 
+# Graphs used in R 
 data(iris)
 x <- iris[,1]
 y <- iris[,2]
 subiris <- iris[,1:2]
 
-# 그래프의 다형성: 입력 인자에 따라 다른 형태의 그래프가 생성 
+# Graph polymorphism: a single graph function returns different outputs according to the argument type 
 plot(x,y)
 plot(subiris)
 plot(iris)
 
-# 제목, x-y 축 이름 달기 
+# Display title, x-y axis labels 
 plot(subiris, main="The comparison between length and width",
      xlab = "The length of sepal",
      ylab = "The width of sepal")
 
-# 그래프 객체의 색 및 모양 변경하기 
+# Change the shape and color in the graph 
 plot(iris[,1],iris[,2],pch=as.integer(iris[,5]))
 
-# 사용 가능한 색 및 모양 예시 
+# An example of possible colors and shapes 
 plot(iris$Sepal.Length,iris$Sepal.Width,
      pch=as.integer(iris$Species),col=as.integer(iris$Species)+10)
 
-# 사용 가능한 색 및 모양 예시 
+# Examples of possible colors and shapes 
 plot(0,0, xlim=c(0,13), ylim=c(0,4), type="n")
 xpos <- rep((0:12)+0.5,2)
 ypos <- rep(c(3,1), c(13,13))
 points(xpos, ypos, cex=seq(from=1,to=3,length=26), col=1:26, pch=0:25)
 text(xpos, ypos, labels = paste(0:25), cex=seq(from=0.1,to=1,length=26))
 
-# 조건화 그래프 
+# Conditional graph 
 coplot(iris[,1]~iris[,2] | iris[,5])
 
-# 막대그래프 
+# Bar graph
 data(airquality)
 heights <- tapply(airquality$Temp, airquality$Month, mean)
 barplot(heights)
@@ -207,7 +207,7 @@ barplot(heights, main="Mean Temp. by Month",
         names.arg = c("May", "Jun", "Jul", "Aug", "Sep"),
         ylab = "Temp (deg.F)")
 
-# 막대그래프 꾸미기 
+# Bar graph with other options 
 rel.hts <- (heights-min(heights))/(max(heights)-min(heights))
 grays <- gray(1-rel.hts)
 barplot(heights, col=grays, ylim=c(50,90), xpd=FALSE,
@@ -215,53 +215,53 @@ barplot(heights, col=grays, ylim=c(50,90), xpd=FALSE,
         names.arg = c("May", "Jun", "Jul", "Aug", "Sep"),
         ylab = "Temp (deg.F)")
 
-# 히스토그램 그리기 
+# Histogram 
 samp <- rgamma(500,2,2)
 hist(samp, 20, prob=T)
 lines(density(samp))
 
-# 그림을 파일로 저장하기: png 형식 
+# Save the plot as a png file 
 png("Hist_dist.png")
 hist(samp, 20, prob=T)
 lines(density(samp))
 dev.off()
 
-# 그림을 파일로 저장하기: pdf 형식 
+# Save the plot as a pdf file 
 pdf("Hist_dist.pdf")
 hist(samp, 20, prob=T)
 lines(density(samp))
 dev.off()
 
-# 보다 다양한 그래프 생성을 위해 ggplot2 패키기 이용 
+# ggplot2 package for more various graphs 
 install.packages("ggplot2")
 library(ggplot2) 
 data(mtcars)
 
-# 그래프 도시를 위한 팩터 생성  
+# Convert the data type into factor 
 mtcars$gear <- factor(mtcars$gear,levels=c(3,4,5), labels=c("3gears","4gears","5gears")) 
 mtcars$am <- factor(mtcars$am,levels=c(0,1), labels=c("Automatic","Manual")) 
 mtcars$cyl <- factor(mtcars$cyl,levels=c(4,6,8), labels=c("4cyl","6cyl","8cyl")) 
 
-# 연비(mpg)에 대한 커널 밀도 함수 추정
-# 기어의 숫자에 따른 그룹(색상)별로 도시
+# Estimate the kernel density function with regard to mpg
+# Use different colors with regard to the number of gears
 qplot(mpg, data=mtcars, geom="density", fill=gear, 
       alpha=I(.5), main="Distribution of Gas Milage", 
       xlab="Miles Per Gallon", ylab="Density")
 
-# 각 기어(gear)-실린더 조합에 따른 연비(mpg)와 마력(hp)의 산점도
-# 각 산점도에서 변속기(am)은 색상과 모양으로 구분됨
+# Scatter plot for mpg and hp with regard to gear-cylinder combinations
+# The variable "am" is expressed by the shape and color
 qplot(hp, mpg, data=mtcars, shape=am, color=am, 
       facets=gear~cyl, size=I(3),
       xlab="Horsepower", ylab="Miles per Gallon")
 
-# 실린더 갯수에 따라 공차중량(wt)과 연비(mpg)를 회귀선으로 표현 
+# Show the regression line between wt and mpg with regard to the number of cyliners 
 p <- ggplot(mtcars, aes(y=mpg, x=wt, colour=factor(cyl))) 
 p <- p + ggtitle("Regression of MPG on Weight") 
 p <- p + stat_smooth(method=lm, aes(fill = factor(cyl))) + geom_point()
 p
 
-# 기어의 숫자에 따른 연비의 상자그림 
-# 실제 관측치들을 점으로 표현
+# Bol plot of mpg with regard to number of gears 
+# Display actual values with dots
 qplot(gear, mpg, data=mtcars, geom=c("boxplot", "jitter"), 
       fill=gear, main="Mileage by Gear Number",
       xlab="", ylab="Miles per Gallon")

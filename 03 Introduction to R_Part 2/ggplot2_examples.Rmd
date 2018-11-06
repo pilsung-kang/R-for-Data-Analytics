@@ -1,13 +1,13 @@
 ---
 title: "ggplot2_examples"
 author: "Pilsung Kang"
-date: "2017년 2월 28일"
+date: "2018-11-01"
 output: html_document
 ---
 
-R 마크다운을 이용하여 R 스크립트와 결과물을 HTML 파일로 불러오는 예제.
+An example of R Markdown to generate the resulting HTML file.
 
-ggplot2 패키지를 호출하고 R에 내장된 mtcars 데이터를 불러옵니다.
+Call ggplot2 package and load mtcars dataset in R.
 
 ```{r, eval = T, echo = T}
 library(ggplot2) 
@@ -15,10 +15,10 @@ data(mtcars)
 head(mtcars)
 ```
 
-mtcars의 세 가지 변수에 대해서 팩터 형태로 변환을 하고 레이블을 부여합니다.
-1. 기어 단계: 3단계, 4단계, 5단계
-2. 변속기 종류: 자동, 수동
-3. 엔진 실린더 수: 4개, 5개, 6개
+Convert the numeric values to factor types for three variables and assign the labels.
+1. gear: three, four, five
+2. transmission: automatic, manual
+3. number of cylinders: four, five, six
 
 ```{r, eval = T, echo = T}
 # create factors with value labels 
@@ -27,7 +27,7 @@ mtcars$am <- factor(mtcars$am,levels=c(0,1), labels=c("Automatic","Manual"))
 mtcars$cyl <- factor(mtcars$cyl,levels=c(4,6,8), labels=c("4cyl","6cyl","8cyl")) 
 ```
 
-기어 단계에 따라서 **연비의 분포(miles per gallon)**를 도시합니다.
+Plot **miles per gallon (mpg)** with regard to the number of gears.
 
 ```{r, eval = T, echo = F}
 # Kernel density plots for mpg
@@ -37,7 +37,7 @@ qplot(mpg, data=mtcars, geom="density", fill=gear,
       xlab="Miles Per Gallon", ylab="Density")
 ```      
 
-변속기 종류(자동, 수동)및 엔진 실린더 수(4개, 5개, 6개)에 따라 마력(Horsepower)과 연비(Miles per Gallon)을 산점도로 나타냅니다.
+Plot the scatter plot between the horsepower (hp) and miles per gallon (mpg) with regard to the type of transmission and the number of cylinders.
 
 ```{r, eval = T, echo = T}
 # Scatterplot of mpg vs. hp for each combination of gears and cylinders
@@ -47,8 +47,8 @@ qplot(hp, mpg, data=mtcars, shape=am, color=am,
       xlab="Horsepower", ylab="Miles per Gallon") 
 ```  
 
-실린더의 수별로 공차중량(wt)과 연비(mpg)사이의 선형 식을 도출합니다.
-추정된 연비의 95% 신뢰구간을 음영으로 표시합니다.
+Estimate the regression between the "wt" and "mpg" with regard to the number of cylinders.
+Display the 95% confidence interver with the gray area.
 
 ```{r, eval = T, echo = T}
 # Separate regressions of mpg on weight for each number of cylinders
@@ -58,7 +58,7 @@ p <- p + stat_smooth(method=lm, aes(fill = factor(cyl))) + geom_point()
 p
 ```
 
-실린더 수에 따른 연비의 상자 그림을 도시합니다.
+Plot the boxplot of mpg with regard to the number of cylinders.
 
 ```{r, eval = T, echo = T}
 # Boxplots of mpg by number of gears 

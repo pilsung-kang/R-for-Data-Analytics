@@ -58,7 +58,7 @@ subject <- NULL
 abstract <- NULL
 meta <- NULL
 
-for( i in c(0,25,50,75,100,125,150, 175)){
+for( i in c(0,25,50,75,100,125,150,175)){
   
   tmp_url <- modify_url(url, query = list(skip = i))
   tmp_list <- read_html(tmp_url) %>% html_nodes('div#dlpage') %>% html_nodes('a[title="Abstract"]') %>% html_attr('href')
