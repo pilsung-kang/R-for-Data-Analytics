@@ -1,32 +1,25 @@
 # R-for-Data-Analytics
 Course homepage of "Programming Language for Data Analytics" @Korea University
 
-## Notice on the final exam
-* Time: 2017-12-20 10:30 ~ 11:45
-* Place: 218 New Engineering Hall
-
 ## Syllabus
-* [Download](https://www.dropbox.com/s/d7h3n29c5ntbdp8/2017_2_Program%20Language%20for%20Data%20Analytics.pdf?dl=0)
+* [Download](https://www.dropbox.com/s/7fn951nnsk6sn2n/2018_2_Programming%20Language%20for%20Data%20Analytics.pdf?dl=0)
 
 ## Assignments
 * Assignment 1: Complete the "Introduction to R" course in DataCamp
   * [DataCamp: Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
   * Send the certification via E-mail: dsba.koreauniv@gmail.com
-  * Due date: 2017. 09. 30. 24:00 EST.
-* Assignment 2: Fill the blanks (marked with ???) in the Assignment 2 R script (See the R Introduction 1 folder)
-  * Use either English version or Korean version
-  * Send the completed R script via E-mail: dsba.koreauniv@gmail.com
-  * Due date: 2017. 10. 25. 24:00 EST.
-* Assignment 3: Fill the blanks (marked with ???) in the Assignment 3 Rmd file (See the R Introduction 2 folder)
-  * Use either English version or Korean version
-  * Send the RMD source code and compiled HTML files via E-mail: dsba.koreauniv@gmail.com
-  * Due date: 2017. 11. 12. 24:00 EST.
-* Assignment 4: Fill the blanks (marked with ???) in the Assignment 4 Rmd file (See the Data Collection from the Web folder)
-  * Send the RMD source code and compiled HTML files via E-mail: dsba.koreauniv@gmail.com
-  * Due date: 2017. 12. 10. 24:00 EST.
-* Assignment scores: [download](https://www.dropbox.com/s/ihgx51begh1uzo7/2017_2_Score%20sheet_students.xlsx?dl=0)
-  * TA for Assignment 2: Myeoungjun Chang (New Engineering Hall 213)
-  * TA for Assignment 3: Jaeyun Jeong (New Engineering Hall 212)
+  * Due date: 2018. 09. 30.
+  * [Result](https://www.dropbox.com/s/ron2alwi192di5e/Assignment%201_Result.pdf?dl=0)
+* Assignment 2: Fill the blanks in the Assignment 2_Kor(or ENG).R script
+  * [Korean version](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/02%20Introduction%20to%20R_Part%201/Assignment%202/Assignment2_Questions_Kor.R)
+  * [English version](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/02%20Introduction%20to%20R_Part%201/Assignment%202/Assignment2_Questions_Eng.R)
+  * Submit the script via E-mail: dsba.koreauniv@gmail.com
+  * Due date: 2018. 10. 18. 23:59.
+* Assignment 3: Fill the blanks(???) in the Assignment 3_Kor(or ENG).Rmd file
+  * [Korean version](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20Introduction%20to%20R_Part%202/Assignment%203/Assignment%203_Questions_Kor.Rmd)
+  * [English version](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20Introduction%20to%20R_Part%202/Assignment%203/Assignment%203_Questions_Eng.Rmd)
+  * Submit the Rmd file and its HTML output via E-mail: dsba.koreauniv@gmail.com
+  * Due date: 2018. 11. 15. 23:59.
 
 ## Schedule
 
