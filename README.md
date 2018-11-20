@@ -16,7 +16,7 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
   * Submit the script via E-mail: dsba.koreauniv@gmail.com
   * Due date: 2018. 10. 18. 23:59.
   * [Score sheet](https://www.dropbox.com/s/se8iloibo9guxl1/2018_2_Scores_A2.xlsx?dl=0)
-  * TA: Jungho Lee (), New Engineering Hall 220, Office hour: (Tue) 13:00-14:00, 17:00-18:00
+  * TA: Jungho Lee (이정호), New Engineering Hall 220, Office hour: (Tue) 13:00-14:00, 17:00-18:00
 * Assignment 3: Fill the blanks(???) in the Assignment 3_Kor(or ENG).Rmd file
   * [Korean version](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20Introduction%20to%20R_Part%202/Assignment%203/Assignment%203_Questions_Kor.Rmd)
   * [English version](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20Introduction%20to%20R_Part%202/Assignment%203/Assignment%203_Questions_Eng.Rmd)
