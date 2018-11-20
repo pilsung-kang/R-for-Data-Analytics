@@ -16,12 +16,14 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
   * Submit the script via E-mail: dsba.koreauniv@gmail.com
   * Due date: 2018. 10. 18. 23:59.
   * [Score sheet](https://www.dropbox.com/s/se8iloibo9guxl1/2018_2_Scores_A2.xlsx?dl=0)
-  * TA: Jungho Lee, New Engineering Hall 220, Office hour: (Tue) 13:00-14:00, 17:00-18:00
+  * TA: Jungho Lee (), New Engineering Hall 220, Office hour: (Tue) 13:00-14:00, 17:00-18:00
 * Assignment 3: Fill the blanks(???) in the Assignment 3_Kor(or ENG).Rmd file
   * [Korean version](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20Introduction%20to%20R_Part%202/Assignment%203/Assignment%203_Questions_Kor.Rmd)
   * [English version](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20Introduction%20to%20R_Part%202/Assignment%203/Assignment%203_Questions_Eng.Rmd)
   * Submit the Rmd file and its HTML output via E-mail: dsba.koreauniv@gmail.com
   * Due date: 2018. 11. 15. 23:59.
+  * [Score sheet](https://www.dropbox.com/s/r95iu766hs4oz2d/2018_2_Scores_A3.xlsx?dl=0)
+  * TA: Wujin Cheon (천우진), New Engineering Hall 220, Office hour: (Tue) 13:00-14:00, 17:00-18:00
 * Assignment 4: Collect the data from the new arXive weside ([instruction](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/04%20Data%20Collection%20from%20the%20Web/Assignment%204/Assignment%204.pdf))
   * Submit the R script and the resulting csv file via E-mail: dsba.koreauniv@gmail.com
   * Student will earn extra credits if they write their own script instead of moditying the lecture script
