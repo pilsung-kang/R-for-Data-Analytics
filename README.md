@@ -30,7 +30,7 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
   * Due date: 2018. 11. 27. 23:59
 * Assignment 5: Answer the questions in the Assignment 5 ([link](https://www.dropbox.com/s/joyv8exkilov5ip/Assignment%205.pdf?dl=0))
   * Submit the RMD file and its HTML output via E-mail: dsba.koreauniv@gmail.com
-  * Due date: 2018. 12. 20. 
+  * Due date: 2018. 12. 20. 23:59
 
 ## Schedule
 
