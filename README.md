@@ -17,19 +17,11 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * R Installation
 * RStudio Installation
   
-## R Introduction 2 ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Type%20and%20Strings)/02_R%20Syntax%201_Data%20Types%20and%20Strings.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Type%20and%20Strings)/02_R%20Syntax%201.R), [Data](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Type%20and%20Strings)/Exam.csv))
-* Conditions and loops
+## R Syntax 1: Data Types and Strings ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Type%20and%20Strings)/02_R%20Syntax%201_Data%20Types%20and%20Strings.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Type%20and%20Strings)/02_R%20Syntax%201.R), [Data](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Type%20and%20Strings)/Exam.csv))
+* Handling Different Data Types
+* String Processing
+
+## R Syntax 2: Conditions, Loops, and Functions
+* Conditions: if, if-else, ifelse
+* Loops: for, while, repeat-break
 * Functions
-* R graphics
-* Documentation
-
-## Data Collection from the Web
-* Collect data using APIs: Twittwer & Facebook
-* Web Scraping: ArXiv, PPOMPPU, NAVER
-
-## Text Data Analysis
-* Text preprocessing
-* Text representation
-* Text summarization
-* Case study 1: Obama's present vs. past
-* Case study 2: Obama vs. Romney
