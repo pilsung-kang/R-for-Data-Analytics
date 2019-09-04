@@ -21,7 +21,7 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * Handling Different Data Types
 * String Processing
 
-## R Syntax 2: Conditions, Loops, and Functions
+## R Syntax 2: Conditions, Loops, and Functions ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/04%20R%20Syntax%202%20(Conditions%20Loops%20and%20Functions)/03_R%20Syntax%202_Conditions_Loops_Functions.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/04%20R%20Syntax%202%20(Conditions%20Loops%20and%20Functions)/03_R%20Syntax%202.R))
 * Conditions: if, if-else, ifelse
 * Loops: for, while, repeat-break
 * Functions
