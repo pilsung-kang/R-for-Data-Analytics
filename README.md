@@ -5,6 +5,7 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * [Download](https://www.dropbox.com/s/n1pzuakkvwzw3bi/2019_2_Programming%20Language%20for%20Data%20Analytics.pdf?dl=0)
 
 ## Assignments
+* Assignments of 2018 courses are uploaded (Assignment 1 was to submit a certificate of an open course)
 
 ## Schedule
 ## Data Analytics ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/01%20Data%20Analytics/01_Data%20Analytics.pdf))
