@@ -18,7 +18,7 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * R Installation
 * RStudio Installation
   
-## R Syntax 1: Data Types and Strings ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Type%20and%20Strings)/02_R%20Syntax%201_Data%20Types%20and%20Strings.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Type%20and%20Strings)/02_R%20Syntax%201.R), [Data](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Type%20and%20Strings)/Exam.csv))
+## R Syntax 1: Data Types and Strings ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Type%20and%20Strings)/02_R%20Syntax%201_Data%20Types%20and%20Strings.pdf), [R Script](https://www.dropbox.com/s/qnxgweg8zgj6y4w/03_R%20Syntax%201.R?dl=0), [Data](https://www.dropbox.com/s/rx1gkl3uog6zwjv/Exam.csv?dl=0))
 * Handling Different Data Types
 * String Processing
 
