@@ -26,3 +26,7 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * Conditions: if, if-else, ifelse
 * Loops: for, while, repeat-break
 * Functions
+
+## R Graphs ([Slide](https://www.dropbox.com/s/t8k7hl2agqap2en/05_1_R_Graphs.R?dl=0))
+* Basic graphs
+* Graphs with ggplot2 package
