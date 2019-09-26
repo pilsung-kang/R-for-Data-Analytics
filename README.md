@@ -27,6 +27,6 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * Loops: for, while, repeat-break
 * Functions
 
-## R Graphs ([Slide](https://www.dropbox.com/s/t8k7hl2agqap2en/05_1_R_Graphs.R?dl=0))
+## R Graphs ([Slide](https://www.dropbox.com/s/c4kjs25t6h4kq92/05_R%20Graphs.pdf?dl=0), [R script](https://www.dropbox.com/s/t8k7hl2agqap2en/05_1_R_Graphs.R?dl=0))
 * Basic graphs
 * Graphs with ggplot2 package
