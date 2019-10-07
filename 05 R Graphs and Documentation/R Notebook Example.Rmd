@@ -1,0 +1,190 @@
+---
+title: "R Notebook Example"
+author: "Pilsung Kang"
+date: '2019-10-07'
+output:
+  html_document:
+    df_print: paged
+  html_notebook: default
+  pdf_document: default
+---
+
+This document shows an example of [ggplot](https://ggplot2.tidyverse.org/index.html
+) package in **R Notebook**.
+
+## Basic Syntax of (R) Markdown
+
+[Basic Syntax of Markdown](https://www.markdownguide.org/basic-syntax/)
+
+[R markdown homepage](https://rmarkdown.rstudio.com/)
+
+![R markdown cheatsheet](https://d33wubrfki0l68.cloudfront.net/374f4c769f97c4ded7300d521eb59b24168a7261/c72ad/lesson-images/cheatsheets-1-cheatsheet.png)
+
+> ### Keyboard shortcuts
+> - Try executing a chunk of R script by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+>
+> - Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+>
+> - When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+>
+> - The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+## Load the dataset
+
+(Note) The following contents are taken from [this website](https://rpubs.com/shailesh/mpg-exploration)
+
+```{r}
+require(ggplot2)
+```
+
+This dataset provides fuel economy data from 1999 and 2008 for 38 popular models of cars. The dataset is shipped with ggplot2 package.
+
+
+| Variable	| Type	| Description	| Details |
+|:----------|:------|:------------|:--------|
+| manufacturer	| string	| car manufacturer	| 15 manufacturers|
+| model	        | string	| model name	      | 38 models       |
+| displ	        | numeric	| engine displacement in liters	| 1.6 - 7.0, median: 3.3 |
+| year	        | integer	| year of manufacturing	| 1999, 2008 |
+| cyl		        |         | number  of cylinders	| 4, 5, 6, 8 |
+| trans	        | string	| type of transmission	| automatic, manual (many sub types) |
+| drv	          | string	| drive type	          |f, r, 4, f=front wheel, r=rear wheel, 4=4 wheel|
+| cty	          | integer	| city mileage	| miles per gallon |
+| hwy	          | integer	| highway mileage	| miles per gallon |
+| fl	          | string	| fuel type	      |5 fuel types (diesel, petrol, electric, etc.) |
+| class	string	| vehicle | class	          |7 types (compact, SUV, minivan etc.) |
+
+Description of **mpg** dataset
+```{r, eval=T, echo=T}
+data("mpg")
+head(mpg)
+str(mpg)
+```
+
+Check the number of rows and columns of the dataset with the column names.
+
+```{r, eval=T, echo=T}
+nrow(mpg)
+ncol(mpg)
+colnames(mpg)
+```
+
+## Draw plots with qplot( ) function
+
+**qplot** is a function for quick and simple plot
+
+Example 1: Bar plot for manufacturer
+
+Default options
+
+**eval=T**: Run the script
+
+**echo=T**: show the script (**not the result**) in the output file
+
+```{r, eval=T, echo=T}
+table(mpg$manufacturer)
+qplot(manufacturer, data=mpg, geom="bar", fill=manufacturer)
+```
+
+**eval=T**: Run run the script
+
+**echo=F**: Do not show the script (**not the result**) in the output file
+
+```{r, eval=T, echo=F}
+qplot(manufacturer, data=mpg, geom="bar", fill=manufacturer)
+```
+
+**eval=F**: Do not run the script
+
+**echo=T**: show the script in the output file
+
+```{r, eval=F, echo=T}
+qplot(manufacturer, data=mpg, geom="bar", fill=manufacturer)
+```
+
+
+Example 2: Bar plot for manufacturer: Histogram for displacement
+
+```{r, eval=T, echo=T}
+summary(mpg$displ)
+qplot(displ, data=mpg, geom="histogram", bin=20)
+```
+
+## Draw plots with ggplot( ) function
+
+We can draw the same graph using **qplot( )** and **ggplot( )**
+
+```{r, eval=T, echo=T}
+qplot(displ, hwy, data=mpg, geom="point", color='red')
+ggplot(mpg, aes(x = displ, y = hwy)) + geom_point(color='blue')
+```
+
+Looking at the data separately for each class
+```{r}
+ggplot(mpg, aes(x = displ, y = hwy, color=class)) + geom_point()
+```
+
+Add another information using the size of points
+```{r}
+ggplot(mpg, aes(x = displ, y = hwy, colour = class)) + 
+        geom_point(aes(size = factor(cyl)))
+```
+
+Separate graphs for each vehicle class
+```{r}
+ggplot(data = mpg) + 
+        geom_point(mapping = aes(x = displ, y = hwy, color=class)) +
+        facet_wrap(~ class, nrow = 2)
+```
+
+Creating facets on the basis of two variables : number of cylinders and type of drive
+```{r}
+ggplot(data = mpg) + 
+        geom_point(mapping = aes(x = displ, y = hwy, color=drv)) +
+        facet_grid(drv ~ cyl)
+```
+
+Continuous + categorical
+```{r}
+p <- ggplot(mpg, aes(factor(cyl), hwy))
+p + geom_point(size=4)  # Overlaid dots
+p + geom_point(size=4, position="jitter")  # Jittered dots
+p + geom_point(size=4, position="jitter", alpha=.2)  # Transparent dots
+```
+
+Violin plots
+```{r}
+p3 <- ggplot(mpg, aes(x=factor(cyl), y=hwy, fill=factor(cyl)))
+p3 + geom_violin(scale = "width")
+```
+
+Add jittered dots for fun
+```{r}
+p3 + geom_violin(scale = "width") + geom_point(size=2, position="jitter")
+```
+
+Estimating a smooth curve for the relationship between displacement and highway mileage:
+```{r}
+ggplot(data = mpg) + geom_smooth(mapping = aes(x = displ, y = hwy))
+ggplot(data = mpg) + geom_smooth(mapping = aes(x = displ, y = hwy), level=0.99)
+```
+
+Separate curve for each type of drive:
+```{r}
+ggplot(data = mpg) + 
+        geom_smooth(mapping = aes(x = displ, y = hwy, linetype = drv, color=drv))
+```
+
+Overlaying a smooth curve on top of scatter plot:
+```{r}
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + 
+        geom_point(mapping=aes(color=class)) +
+        geom_smooth()
+```
+
+Grouping data by drive and then drawing scatter plot with estimated curve for each group:
+```{r}
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy, color = drv)) + 
+        geom_point() + 
+        geom_smooth(se = FALSE)
+```
