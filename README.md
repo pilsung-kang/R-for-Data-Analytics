@@ -35,3 +35,8 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 ## R Graphs ([Slide](https://www.dropbox.com/s/c4kjs25t6h4kq92/05_R%20Graphs.pdf?dl=0), [R script](https://www.dropbox.com/s/t8k7hl2agqap2en/05_1_R_Graphs.R?dl=0))
 * Basic graphs
 * Graphs with ggplot2 package
+
+## R Documentation ([Slide, Script, and Output file](https://www.dropbox.com/s/fa9m8yq4wfmtet2/R%20Documentation.zip?dl=0))
+* Markdown syntax
+* R Notebook syntax
+* Output file configuration: HTML, PDF, etc.
