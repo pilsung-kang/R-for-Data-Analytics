@@ -45,3 +45,8 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * Markdown syntax
 * R Notebook syntax
 * Output file configuration: HTML, PDF, etc.
+
+## Web Scraping ([Slide and Script](https://www.dropbox.com/s/8b3u4eqrjjxi0o9/Web%20Scraping.zip?dl=0))
+* XPath syntax, CSS Selector
+* Web Scraping using rvest
+* arXiv paper scraping, IMDB movie review scraping
