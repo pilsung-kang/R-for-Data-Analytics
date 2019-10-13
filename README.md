@@ -5,6 +5,11 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * [Download](https://www.dropbox.com/s/n1pzuakkvwzw3bi/2019_2_Programming%20Language%20for%20Data%20Analytics.pdf?dl=0)
 
 ## Assignments
+* Assignment 2 [Script & Dataset](https://www.dropbox.com/s/et3oreequdda9nd/R%20Assignment%202.zip?dl=0)
+   * Due date: 2019-10-25(Fri.) 23:59
+   * Two R files with your answer must be submitted via e-mail: dsba.koreauniv@gmail.com
+   * Title format: Assignment number, course code (IMEN158-00 or IMEM158-01), student id, and name
+   * Example: R1_IMEM158-00_2016170815_김성용
 * Assignment 1 [Script & Dataset](https://www.dropbox.com/s/swvqzwee97agofo/R%20Assignment%201.zip?dl=0)
    * Due date: 2019-10-11(Fri.) 23:59
    * R file with your answer must be submitted via e-mail: dsba.koreauniv@gmail.com
@@ -35,3 +40,8 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 ## R Graphs ([Slide](https://www.dropbox.com/s/c4kjs25t6h4kq92/05_R%20Graphs.pdf?dl=0), [R script](https://www.dropbox.com/s/t8k7hl2agqap2en/05_1_R_Graphs.R?dl=0))
 * Basic graphs
 * Graphs with ggplot2 package
+
+## R Documentation ([Slide, Script, and Output file](https://www.dropbox.com/s/fa9m8yq4wfmtet2/R%20Documentation.zip?dl=0))
+* Markdown syntax
+* R Notebook syntax
+* Output file configuration: HTML, PDF, etc.
