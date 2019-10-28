@@ -15,6 +15,8 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
    * R file with your answer must be submitted via e-mail: dsba.koreauniv@gmail.com
    * Title format: Assignment number, course code (IMEN158-00 or IMEM158-01), student id, and name
    * Example: R1_IMEM158-00_2016170815_김성용
+   * Score sheets: [IMEN158-00](https://www.dropbox.com/s/v3b93jtc8jsq6ws/A1_Score_IMEN158-00.xlsx?dl=0), [IMEN158-01](https://www.dropbox.com/s/lvq9liax51ip493/A1_Score_IMEN158-01.xlsx?dl=0)
+   * TA: Junghoon Lee, junghoon_lee at korea.ac.kr
 * Assignments of 2018 courses are uploaded (Assignment 1 was to submit a certificate of an open course)
 
 ## Schedule
