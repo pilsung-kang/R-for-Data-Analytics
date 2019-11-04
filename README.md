@@ -57,3 +57,7 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * XPath syntax, CSS Selector
 * Web Scraping using rvest
 * arXiv paper scraping, IMDB movie review scraping
+
+## Data Manipulation ([Slide and Script](https://www.dropbox.com/s/xr7xrv0eeeooocy/07%20Data%20Manipulation.zip?dl=0))
+* dplyr basics
+* Select(), Filter(), Arrange(), Summary(), Group_by()
