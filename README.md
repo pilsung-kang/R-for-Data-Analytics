@@ -15,6 +15,9 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
    * Two R files with your answer must be submitted via e-mail: dsba.koreauniv@gmail.com
    * Title format: Assignment number, course code (IMEN158-00 or IMEM158-01), student id, and name
    * Example: R1_IMEM158-00_2016170815_김성용
+   * Score sheets: [IMEN158-00](https://www.dropbox.com/s/yh5hzs19p03bavg/A2_Score_IMEN158-00.xlsx?dl=0), [IMEN158-01](https://www.dropbox.com/s/yqqqclv5zm0h5w9/A2_Score_IMEN158-01.xlsx?dl=0)
+   * TA: Youngbin Ro, youngbin_ro at korea.ac.kr
+
 * Assignment 1 [Script & Dataset](https://www.dropbox.com/s/swvqzwee97agofo/R%20Assignment%201.zip?dl=0)
    * Due date: 2019-10-11(Fri.) 23:59
    * R file with your answer must be submitted via e-mail: dsba.koreauniv@gmail.com
