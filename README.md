@@ -70,3 +70,9 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 ## Data Manipulation ([Slide and Script](https://www.dropbox.com/s/xr7xrv0eeeooocy/07%20Data%20Manipulation.zip?dl=0))
 * dplyr basics
 * Select(), Filter(), Arrange(), Summary(), Group_by()
+
+## Text Analtyics ([Slide and Script](https://www.dropbox.com/s/1jeisu1zv650pyq/08%20Text%20Analytics.zip?dl=0))
+* Text preprocessing
+* Text Representation: Bag-of-words
+* Text Summarization & Visualization: WordCloud, TreeMap, Word Network
+
