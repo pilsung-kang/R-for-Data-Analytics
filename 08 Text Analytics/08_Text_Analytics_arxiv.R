@@ -176,6 +176,7 @@ E(nlp_graph)$width <- egam1
 # plot the graph in layout1
 plot(nlp_graph, layout=layout.kamada.kawai)
 
+# Find community
 nlp_community <- walktrap.community(nlp_graph, steps = 3)
 modularity(nlp_community)
 membership(nlp_community)
