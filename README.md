@@ -7,7 +7,7 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 ## Assignments
 * Assignment 4 [Instruction](https://www.dropbox.com/s/5grspdyonimuvim/Assignment%204.pdf?dl=0)
    * Due date: 2019-12-06(Fri.) 23:59
-   * An R script, Rmd file, and the compiled HTML file must be submitted via e-mail: dsba.koreauniv@gmail.com
+   * An R script and the scraping result (RData format or csv format) must be submitted via e-mail: dsba.koreauniv@gmail.com
    * Title format: Assignment number, course code (IMEN158-00 or IMEM158-01), student id, and name
    * Example: R4_IMEM158-00_2016170815_김성용
    
