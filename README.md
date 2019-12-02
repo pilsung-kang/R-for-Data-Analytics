@@ -16,6 +16,9 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
    * An Rmd file and the compiled HTML file must be submitted via e-mail: dsba.koreauniv@gmail.com
    * Title format: Assignment number, course code (IMEN158-00 or IMEM158-01), student id, and name
    * Example: R3_IMEM158-00_2016170815_김성용
+   * Score sheet: [IMEN158-00](https://www.dropbox.com/s/byptn0mjg4tj74i/A3_Score_IMEN158-00.xlsx?dl=0), [IMEN158-01](https://www.dropbox.com/s/a0dknakega6qtzr/A3_Score_IMEN158-01.xlsx?dl=0)
+   * TA: Joongmin Park, joongmin_park@korea.ac.kr
+   
 * Assignment 2 [Script & Dataset](https://www.dropbox.com/s/et3oreequdda9nd/R%20Assignment%202.zip?dl=0)
    * Due date: 2019-10-25(Fri.) 23:59
    * Two R files with your answer must be submitted via e-mail: dsba.koreauniv@gmail.com
