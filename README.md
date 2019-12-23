@@ -16,6 +16,8 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
    * An R script and the scraping result (RData format or csv format) must be submitted via e-mail: dsba.koreauniv@gmail.com
    * Title format: Assignment number, course code (IMEN158-00 or IMEM158-01), student id, and name
    * Example: R4_IMEM158-00_2016170815_김성용
+   * Score sheet: [IMEN158-00](https://www.dropbox.com/s/xujj1u6xdl4slh3/A4_Score_IMEN158-00.xlsx?dl=0), [IMEN158-01](https://www.dropbox.com/s/c5bisc40kxm1rh0/A4_Score_IMEN158-01.xlsx?dl=0)
+   * TA: Jonghyun Choi, excelsiorcjh at korea.ac.kr
    
 * Assignment 3 [Instruction & Dataset](https://www.dropbox.com/s/dixh34wx4dxxsox/Assignment%203.zip?dl=0)
    * Due date: 2019-11-15(Fri.) 23:59
@@ -23,7 +25,7 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
    * Title format: Assignment number, course code (IMEN158-00 or IMEM158-01), student id, and name
    * Example: R3_IMEM158-00_2016170815_김성용
    * Score sheet: [IMEN158-00](https://www.dropbox.com/s/byptn0mjg4tj74i/A3_Score_IMEN158-00.xlsx?dl=0), [IMEN158-01](https://www.dropbox.com/s/a0dknakega6qtzr/A3_Score_IMEN158-01.xlsx?dl=0)
-   * TA: Joongmin Park, joongmin_park@korea.ac.kr
+   * TA: Joongmin Park, joongmin_park at korea.ac.kr
    
 * Assignment 2 [Script & Dataset](https://www.dropbox.com/s/et3oreequdda9nd/R%20Assignment%202.zip?dl=0)
    * Due date: 2019-10-25(Fri.) 23:59
