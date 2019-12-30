@@ -4,6 +4,10 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 ## Syllabus
 * [Download](https://www.dropbox.com/s/n1pzuakkvwzw3bi/2019_2_Programming%20Language%20for%20Data%20Analytics.pdf?dl=0)
 
+## Final Scores
+* [IMEM158-00](https://www.dropbox.com/s/srfg734r54f8xhb/IMEN158-00_final_upload.xlsx?dl=0)
+* [IMEM158-01](https://www.dropbox.com/s/pzplnzmtuoabh02/IMEN158-01_final_upload.xlsx?dl=0)
+
 ## Assignments
 * Assignment 5 [Instruction](https://www.dropbox.com/s/xi4f3r718mu200i/Assignment%205.zip?dl=0)
    * Due date: 2019-12-13(Fri.) 23:59
