@@ -4,18 +4,35 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 ## Syllabus
 * [Download](https://www.dropbox.com/s/n1pzuakkvwzw3bi/2019_2_Programming%20Language%20for%20Data%20Analytics.pdf?dl=0)
 
+## Final Scores
+* [IMEM158-00](https://www.dropbox.com/s/srfg734r54f8xhb/IMEN158-00_final_upload.xlsx?dl=0)
+* [IMEM158-01](https://www.dropbox.com/s/pzplnzmtuoabh02/IMEN158-01_final_upload.xlsx?dl=0)
+
 ## Assignments
+* Assignment 5 [Instruction](https://www.dropbox.com/s/xi4f3r718mu200i/Assignment%205.zip?dl=0)
+   * Due date: 2019-12-13(Fri.) 23:59
+   * An Rmd fild with the answer code blocks must be submitted via e-mail: dsba.koreauniv@gmail.com
+   * Title format: Assignment number, course code (IMEN158-00 or IMEM158-01), student id, and name
+   * Example: R5_IMEM158-00_2016170815_김성용
+   * Score sheet: [IMEN158-00](https://www.dropbox.com/s/v8wp7bzb3fq5ljs/A5_Score_IMEN158-00.xlsx?dl=0), [IMEN158-01](https://www.dropbox.com/s/1sjyu5azje5lazx/A5_Score_IMEN158-01.xlsx?dl=0)
+   * TA: Wujin Cheon, wojin6 at korea.ac.kr
+
 * Assignment 4 [Instruction](https://www.dropbox.com/s/5grspdyonimuvim/Assignment%204.pdf?dl=0)
    * Due date: 2019-12-06(Fri.) 23:59
-   * An R script, Rmd file, and the compiled HTML file must be submitted via e-mail: dsba.koreauniv@gmail.com
+   * An R script and the scraping result (RData format or csv format) must be submitted via e-mail: dsba.koreauniv@gmail.com
    * Title format: Assignment number, course code (IMEN158-00 or IMEM158-01), student id, and name
    * Example: R4_IMEM158-00_2016170815_김성용
+   * Score sheet: [IMEN158-00](https://www.dropbox.com/s/xujj1u6xdl4slh3/A4_Score_IMEN158-00.xlsx?dl=0), [IMEN158-01](https://www.dropbox.com/s/c5bisc40kxm1rh0/A4_Score_IMEN158-01.xlsx?dl=0)
+   * TA: Jonghyun Choi, excelsiorcjh at korea.ac.kr
    
 * Assignment 3 [Instruction & Dataset](https://www.dropbox.com/s/dixh34wx4dxxsox/Assignment%203.zip?dl=0)
    * Due date: 2019-11-15(Fri.) 23:59
    * An Rmd file and the compiled HTML file must be submitted via e-mail: dsba.koreauniv@gmail.com
    * Title format: Assignment number, course code (IMEN158-00 or IMEM158-01), student id, and name
    * Example: R3_IMEM158-00_2016170815_김성용
+   * Score sheet: [IMEN158-00](https://www.dropbox.com/s/byptn0mjg4tj74i/A3_Score_IMEN158-00.xlsx?dl=0), [IMEN158-01](https://www.dropbox.com/s/a0dknakega6qtzr/A3_Score_IMEN158-01.xlsx?dl=0)
+   * TA: Joongmin Park, joongmin_park at korea.ac.kr
+   
 * Assignment 2 [Script & Dataset](https://www.dropbox.com/s/et3oreequdda9nd/R%20Assignment%202.zip?dl=0)
    * Due date: 2019-10-25(Fri.) 23:59
    * Two R files with your answer must be submitted via e-mail: dsba.koreauniv@gmail.com
