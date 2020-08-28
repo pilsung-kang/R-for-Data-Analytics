@@ -19,10 +19,9 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * What can we do with data analytics?
 * Data analytics language: R & Python
   
-## R Introduction and Installation ([Slide](), [Video](https://www.youtube.com/watch?v=OoUUVsjtX_g&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy))
+## R Introduction and Installation
 * R Overview
-* R Installation
-* RStudio Installation
+* R & RStudio Installation ([Slide](), [Video](https://www.youtube.com/watch?v=OoUUVsjtX_g&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy))
   
 ## R Syntax 1: Data Types and Strings ([Slide](), [R Script & Data]())
 * Handling Different Data Types
