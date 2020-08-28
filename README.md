@@ -15,7 +15,7 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
    * Example: R1_202012345_홍길동
 
 ## Schedule
-## Data Analytics ([Slide]())
+## Data Analytics ([](), [Slide]())
 * What is data analytics?
 * What can we do with data analytics?
 * Data analytics language: R & Python
