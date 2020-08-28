@@ -21,7 +21,7 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
   
 ## R Introduction and Installation
 * R Overview
-* R & RStudio Installation ([Slide](), [Video](https://www.youtube.com/watch?v=OoUUVsjtX_g&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy))
+* R & RStudio Installation ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/02%20R%20Introduction%20and%20Installation/02_2_R%20and%20RStudio%20Installation.pdf), [Video](https://www.youtube.com/watch?v=OoUUVsjtX_g&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy))
   
 ## R Syntax 1: Data Types and Strings ([Slide](), [R Script & Data]())
 * Handling Different Data Types
