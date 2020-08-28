@@ -25,29 +25,29 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * R Installation
 * RStudio Installation
   
-## R Syntax 1: Data Types and Strings ([Slide](), [R Script & Data]()
+## R Syntax 1: Data Types and Strings ([Slide](), [R Script & Data]())
 * Handling Different Data Types
 * String Processing
 
-## R Syntax 2: Conditions, Loops, and Functions ([Slide](), [R Script]()
+## R Syntax 2: Conditions, Loops, and Functions ([Slide](), [R Script]())
 * Conditions: if, if-else, ifelse
 * Loops: for, while, repeat-break
 * Functions
 
-## R Graphs ([Slide](), [R script]()
+## R Graphs ([Slide](), [R script]())
 * Basic graphs
 * Graphs with ggplot2 package
 
-## R Documentation ([Slide, Script, and Output file]()
+## R Documentation ([Slide, Script, and Output file]())
 * Markdown syntax
 * R Notebook syntax
 * Output file configuration: HTML, PDF, etc.
 
-## Web Scraping ([Slide and Script]()
+## Web Scraping ([Slide and Script]())
 * XPath syntax, CSS Selector
 * Web Scraping using rvest
 * arXiv paper scraping, IMDB movie review scraping
 
-## Data Manipulation ([Slide and Script]()
+## Data Manipulation ([Slide and Script]())
 * dplyr basics
 * Select(), Filter(), Arrange(), Summary(), Group_by()
