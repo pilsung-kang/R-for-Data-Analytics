@@ -1,8 +1,7 @@
 # R-for-Data-Analytics
 Course homepage of "Programming Language for Data Analytics" @Korea University
 
-## Syllabus
-* [Download](https://www.dropbox.com/s/yvkkudu3c54e9fg/2020_2_Programming%20Language%20for%20Data%20Analytics.pdf?dl=0)
+## Syllabus ([Doc](https://www.dropbox.com/s/yvkkudu3c54e9fg/2020_2_Programming%20Language%20for%20Data%20Analytics.pdf?dl=0), [Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/00_Syllabus.pdf), [Video]())
 
 ## Final Scores
 * TBA
