@@ -23,9 +23,11 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * R Overview
 * R & RStudio Installation ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/02%20R%20Introduction%20and%20Installation/02_2_R%20and%20RStudio%20Installation.pdf), [Video](https://www.youtube.com/watch?v=OoUUVsjtX_g&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy))
   
-## R Syntax 1: Data Types and Strings ([Slide](), [R Script & Data]())
-* Handling Different Data Types
-* String Processing
+## R Syntax 1: Data Types and Strings 
+* Handling Different Data Types: Vector ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Typs%20and%20Strings)/03_1_R%20Syntax%201_Data%20Types%20and%20Vector.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Typs%20and%20Strings)/03_1_Vector.R))
+* Handling Different Data Types: List, Matrix, and Arrary ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Typs%20and%20Strings)/03_2_List_Matrix_Array.pdf), [R_Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Typs%20and%20Strings)/03_2_List_Matrix_Array.R))
+* Handling Different Data Types: Factor and Dataframe ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Typs%20and%20Strings)/03_3_Factor%20and%20Dataframe.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Typs%20and%20Strings)/03_3_Factor%20and%20Dataframe.R))
+* Handling Different Data Types: Strings ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Typs%20and%20Strings)/03_4_Strings.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Typs%20and%20Strings)/03_4_Strings.R))
 
 ## R Syntax 2: Conditions, Loops, and Functions ([Slide](), [R Script]())
 * Conditions: if, if-else, ifelse
