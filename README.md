@@ -14,13 +14,13 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
    * Example: R1_202012345_홍길동
 
 ## Schedule
-## Data Analytics ([Video](), [Slide]())
+## Data Analytics ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/01%20Data%20Analytics/01_Data%20Analytics.pdf), [Video](https://www.youtube.com/watch?v=xRZc_ep-HwY&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy&index=2))
 * What is data analytics?
 * What can we do with data analytics?
 * Data analytics language: R & Python
   
 ## R Introduction and Installation
-* R Overview
+* R Overview ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/02%20R%20Introduction%20and%20Installation/02_1_R%20Overview.pdf). [Video](https://www.youtube.com/watch?v=sqqz7S7fwAg&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy&index=3))
 * R & RStudio Installation ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/02%20R%20Introduction%20and%20Installation/02_2_R%20and%20RStudio%20Installation.pdf), [Video](https://www.youtube.com/watch?v=OoUUVsjtX_g&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy))
   
 ## R Syntax 1: Data Types and Strings 
