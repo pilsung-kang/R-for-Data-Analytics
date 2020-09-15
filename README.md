@@ -29,25 +29,27 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * Handling Different Data Types: Factor and Dataframe ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Typs%20and%20Strings)/03_3_Factor%20and%20Dataframe.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Typs%20and%20Strings)/03_3_Factor%20and%20Dataframe.R), [Video (Factor)](https://www.youtube.com/watch?v=JVZAtUEw5MQ&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy&index=11))
 * Handling Different Data Types: Strings ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Typs%20and%20Strings)/03_4_Strings.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/03%20R%20Syntax%201%20(Data%20Typs%20and%20Strings)/03_4_Strings.R))
 
-## R Syntax 2: Conditions, Loops, and Functions ([Slide](), [R Script]())
+## R Syntax 2: Conditions, Loops, and Functions
 * Conditions: if, if-else, ifelse
 * Loops: for, while, repeat-break
 * Functions
 
-## R Graphs ([Slide](), [R script]())
-* Basic graphs
-* Graphs with ggplot2 package
+## Data Manipulation
+* dplyr basics
+* Select(), Filter(), Arrange(), Summary(), Group_by()
 
-## R Documentation ([Slide, Script, and Output file]())
-* Markdown syntax
-* R Notebook syntax
-* Output file configuration: HTML, PDF, etc.
-
-## Web Scraping ([Slide and Script]())
+## Web Scraping
 * XPath syntax, CSS Selector
 * Web Scraping using rvest
 * arXiv paper scraping, IMDB movie review scraping
 
-## Data Manipulation ([Slide and Script]())
-* dplyr basics
-* Select(), Filter(), Arrange(), Summary(), Group_by()
+## R Graphs
+* Basic graphs
+* Graphs with ggplot2 package
+
+## R Documentation
+* Markdown syntax
+* R Notebook syntax
+* Output file configuration: HTML, PDF, etc.
+
+
