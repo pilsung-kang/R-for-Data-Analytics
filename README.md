@@ -35,8 +35,11 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * Functions ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/04%20R%20Syntax%202%20(Conditions%20Loops%20and%20Functions)/04-3_R%20Syntax_Functions.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/04%20R%20Syntax%202%20(Conditions%20Loops%20and%20Functions)/04-3_R%20Syntax_Functions.R), [Video](https://www.youtube.com/watch?v=6qbwcuSVu2U&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy&index=16))
 
 ## Data Manipulation
-* dplyr basics
-* Select(), Filter(), Arrange(), Summary(), Group_by()
+* dplyr basics & Select() ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/05%20Data%20Manipulation/05-1_Data%20Manipulation_Select.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/05%20Data%20Manipulation/05-1_Data%20Manipulation_Select.R))
+* Filter() ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/05%20Data%20Manipulation/05-2_Data%20Manipulation_Filter.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/05%20Data%20Manipulation/05-2_Data%20Manipulation_Filter.R))
+* Arrange() & Mutate() ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/05%20Data%20Manipulation/05-3_Data%20Manipulation_Arrange_Mutate.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/05%20Data%20Manipulation/05-3_Data%20Manipulation_Arrange_Mutate.R))
+* Summarize() & Group_by() ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/05%20Data%20Manipulation/05-4_Data%20Manipulation_Summarize_Groupby.pdf
+), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/05%20Data%20Manipulation/05-4_Data%20Manipulation_Summarize_Groupby.R))
 
 ## Web Scraping
 * XPath syntax, CSS Selector
