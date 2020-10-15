@@ -12,7 +12,7 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
    * R file with your answer must be submitted via e-mail: dsba.koreauniv@gmail.com
    * If necessary, use the comments to explain your 
    * Title format: Assignment number, student id, and name
-   * Example: R1_202012345_홍길동
+   * Example: A1_202012345_홍길동
 
 ## Schedule
 ## Data Analytics ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/01%20Data%20Analytics/01_Data%20Analytics.pdf), [Video](https://www.youtube.com/watch?v=xRZc_ep-HwY&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy&index=2))
