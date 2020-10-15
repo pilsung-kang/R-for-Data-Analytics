@@ -7,7 +7,7 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * TBA
 
 ## Assignments
-* Assignment 1
+* Assignment 1 [download](https://www.dropbox.com/s/t5of5h3gusm3qc9/Assignment%201.pdf?dl=0)
    * Due date: 2020-10-27 23:59
    * R file with your answer must be submitted via e-mail: dsba.koreauniv@gmail.com
    * If necessary, use the comments to explain your (If you use Korean for comments (allowed), you must use UTF-8 encoding scheme for the 
