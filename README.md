@@ -8,8 +8,9 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 
 ## Assignments
 * Assignment 1
-   * Due date: TBA
+   * Due date: 2020-10-27 23:59
    * R file with your answer must be submitted via e-mail: dsba.koreauniv@gmail.com
+   * If necessary, use the comments to explain your 
    * Title format: Assignment number, student id, and name
    * Example: R1_202012345_홍길동
 
