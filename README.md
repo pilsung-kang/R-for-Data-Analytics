@@ -43,9 +43,9 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 ), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/05%20Data%20Manipulation/05-4_Data%20Manipulation_Summarize_Groupby.R), [Video](https://www.youtube.com/watch?v=L_iMYFNITME&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy&index=18))
 
 ## Web Scraping
-* XPath syntax, CSS Selector
-* Web Scraping using rvest
-* arXiv paper scraping, IMDB movie review scraping
+* XPath syntax, CSS Selector ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-1_Web%20Scraping_Backgrounds.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-1_Web%20Scraping_Backgrounds.R), [Dataset](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/xml_example.xml))
+* Web Scraping Exercise 1: arXiv papers ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-2_Web%20Scraping_arXiv%20papers.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-2_Web%20Scraping_arXiv%20papers.R))
+* Web Scraping Exercise 2: IMDB movie reviews
 
 ## R Graphs
 * Basic graphs
