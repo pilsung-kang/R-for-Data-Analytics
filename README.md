@@ -7,10 +7,24 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * TBA
 
 ## Assignments
+* Assignment 3 ([download](https://www.dropbox.com/s/14wwrgbq9p00a3m/Assignment%202.pdf?dl=0)
+   * Due date: 2020-11-24 23:59
+   * R file with your answer must be submitted via e-mail: dsba.koreauniv@gmail.com
+   * If necessary, use the comments to explain your answers (If you use Korean for comments (allowed), you must use UTF-8 encoding scheme for the 
+   * Title format: Assignment number, student id, and name
+   * Example: A3_202012345_홍길동
+
+* Assignment 2 ([download](https://www.dropbox.com/s/14wwrgbq9p00a3m/Assignment%202.pdf?dl=0)
+   * Due date: 2020-11-10 23:59
+   * R file with your answer must be submitted via e-mail: dsba.koreauniv@gmail.com
+   * If necessary, use the comments to explain your answers (If you use Korean for comments (allowed), you must use UTF-8 encoding scheme for the 
+   * Title format: Assignment number, student id, and name
+   * Example: A2_202012345_홍길동
+
 * Assignment 1 ([download](https://www.dropbox.com/s/t5of5h3gusm3qc9/Assignment%201.pdf?dl=0))
    * Due date: 2020-10-27 23:59
    * R file with your answer must be submitted via e-mail: dsba.koreauniv@gmail.com
-   * If necessary, use the comments to explain your (If you use Korean for comments (allowed), you must use UTF-8 encoding scheme for the 
+   * If necessary, use the comments to explain your answers (If you use Korean for comments (allowed), you must use UTF-8 encoding scheme for the 
    * Title format: Assignment number, student id, and name
    * Example: A1_202012345_홍길동
 
