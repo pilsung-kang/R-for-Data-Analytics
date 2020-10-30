@@ -59,7 +59,8 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 ## Web Scraping
 * XPath syntax, CSS Selector ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-1_Web%20Scraping_Backgrounds.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-1_Web%20Scraping_Backgrounds.R), [Dataset](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/xml_example.xml), [Video](https://www.youtube.com/watch?v=HL0-VRU1yys&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy&index=19))
 * Web Scraping Exercise 1: arXiv papers ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-2_Web%20Scraping_arXiv%20papers.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-2_Web%20Scraping_arXiv%20papers.R), [Video](https://www.youtube.com/watch?v=T_Mly--B7qk&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy&index=20))
-* Web Scraping Exercise 2: IMDB movie reviews
+* Web Scraping Exercise 2: IMDB movie reviews ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-3_Web%20Scraping_Movie%20Reviews.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-3_Web%20Scraping_IMDB%20Top50.R))
+* Web Scraping Exercise 3: Open Forum ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-4_Web%20Scraping_Open%20Forum.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-4_Web%20Scraping_Open%20Forum.R))
 
 ## R Graphs
 * Basic graphs
