@@ -69,9 +69,9 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * Web Scraping Exercise 2: IMDB movie reviews ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-3_Web%20Scraping_Movie%20Reviews.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-3_Web%20Scraping_IMDB%20Top50.R), [Video](https://www.youtube.com/watch?v=qgPy5fO60MM&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy&index=21))
 * Web Scraping Exercise 3: Open Forum ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-4_Web%20Scraping_Open%20Forum.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-4_Web%20Scraping_Open%20Forum.R))
 
-## R Graphs
-* Basic graphs
-* Graphs with ggplot2 package
+## R Graphics
+* Basic Graph 1: Barplot, Dotchart, and Histogram ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/07%20R%20Graphics/07-1_R%20Graphs_Basic_Part%201.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/07%20R%20Graphics/07-1_R_Graphs_Basic_Part%201.R))
+
 
 ## R Documentation
 * Markdown syntax
