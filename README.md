@@ -71,8 +71,9 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * Web Scraping Exercise 3: Open Forum ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-4_Web%20Scraping_Open%20Forum.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/06%20Web%20Scraping/06-4_Web%20Scraping_Open%20Forum.R), [Video](https://www.youtube.com/watch?v=n7bPrzfA5kg&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy&index=22))
 
 ## R Graphics
-* Basic Graph 1: Barplot, Dotchart, and Histogram ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/07%20R%20Graphics/07-1_R%20Graphs_Basic_Part%201.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/07%20R%20Graphics/07-1_R_Graphs_Basic_Part%201.R), [Video](https://youtu.be/smUJee_3iHA))
-* Basic Graph 2: plot(), Stripchart, pairs() ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/07%20R%20Graphics/07-2_R%20Graphs_Basic_Part%202.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/07%20R%20Graphics/07-2_R_Graphs_Basic_Part%202.R), [Video](https://www.youtube.com/watch?v=2qIfCtvs124&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy&index=24))
+* Basic Graph Part 1: Barplot, Dotchart, and Histogram ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/07%20R%20Graphics/07-1_R%20Graphs_Basic_Part%201.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/07%20R%20Graphics/07-1_R_Graphs_Basic_Part%201.R), [Video](https://youtu.be/smUJee_3iHA))
+* Basic Graph Part 2: plot(), Stripchart, pairs() ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/07%20R%20Graphics/07-2_R%20Graphs_Basic_Part%202.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/07%20R%20Graphics/07-2_R_Graphs_Basic_Part%202.R), [Video](https://www.youtube.com/watch?v=2qIfCtvs124&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy&index=24))
+* ggplot2() Part 1: ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/07%20R%20Graphics/07-3_R%20Graphs_ggplot2_Part%201.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/07%20R%20Graphics/07-3_R_Graphs_ggplot2_Part%201.R))
 
 
 ## R Documentation
