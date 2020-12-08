@@ -20,6 +20,9 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
    * If necessary, use the comments to explain your answers (If you use Korean for comments (allowed), you must use UTF-8 encoding scheme for the script)
    * Title format: Assignment number, student id, and name
    * Example: A3_202012345_홍길동
+   * Assignment 3 Score ([Download](https://www.dropbox.com/s/et08s1uzcxitnpg/HW3_Score_Student.xlsx?dl=0))
+     - 채점조교: 소규성 석사과정(kyoosung_so@korea.ac.kr), 이윤승 석사과정(yunseung_lee@korea.ac.kr)
+     - 이의신청기간: 12월 18
 
 * Assignment 2 ([download](https://www.dropbox.com/s/dx62xlyuv95nu32/2020_Assignment%202.pdf?dl=0))
    * Due date: 2020-11-10 23:59
@@ -27,6 +30,9 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
    * If necessary, use the comments to explain your answers (If you use Korean for comments (allowed), you must use UTF-8 encoding scheme for the script)
    * Title format: Assignment number, student id, and name
    * Example: A2_202012345_홍길동
+   * Assignment 2 Score ([Download](https://www.dropbox.com/s/s30bq6or449ub05/HW2_Score_Student.xlsx?dl=0))
+     - 채점조교: 김탁영 석사과정(takyoung_kim@korea.ac.kr), 윤훈상 석사과정(hoonsang_yoon@korea.ac.kr)
+     - 이의신청기간: 12월 11일까지
 
 * Assignment 1 ([download](https://www.dropbox.com/s/t5of5h3gusm3qc9/Assignment%201.pdf?dl=0))
    * Due date: 2020-10-27 23:59
@@ -35,6 +41,8 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
    * Title format: Assignment number, student id, and name
    * Example: A1_202012345_홍길동
    * Assignment 1 Score ([download](https://www.dropbox.com/s/eeenhrmstyf0d4k/HW1_Score_Student_Final.xlsx?dl=0))
+     - 채점조교: 김지나 석사과정(jina_kim@korea.ac.kr), 정의석 석사과정(euisuk_chung@korea.ac.kr)
+     - 이의신청기간: 11월 30일까지
 
 ## Schedule
 ## Data Analytics ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/01%20Data%20Analytics/01_Data%20Analytics.pdf), [Video](https://www.youtube.com/watch?v=xRZc_ep-HwY&list=PLetSlH8YjIfVIrfhwuss_tDCgD5_ug_dy&index=2))
