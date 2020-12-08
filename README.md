@@ -22,7 +22,7 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
    * Example: A3_202012345_홍길동
    * Assignment 3 Score ([Download](https://www.dropbox.com/s/et08s1uzcxitnpg/HW3_Score_Student.xlsx?dl=0))
      - 채점조교: 소규성 석사과정(kyoosung_so@korea.ac.kr), 이윤승 석사과정(yunseung_lee@korea.ac.kr)
-     - 이의신청기간: 12월 18
+     - 이의신청기간: 12월 18일까지  
 
 * Assignment 2 ([download](https://www.dropbox.com/s/dx62xlyuv95nu32/2020_Assignment%202.pdf?dl=0))
    * Due date: 2020-11-10 23:59
