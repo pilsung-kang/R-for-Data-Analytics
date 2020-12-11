@@ -1,12 +1,18 @@
 # R-for-Data-Analytics
 Course homepage of "Programming Language for Data Analytics" @Korea University
 
-## Syllabus ([Doc](https://www.dropbox.com/s/yvkkudu3c54e9fg/2020_2_Programming%20Language%20for%20Data%20Analytics.pdf?dl=0), [Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/00_Syllabus.pdf), [Video]())
+## Syllabus ([Doc](https://www.dropbox.com/s/yvkkudu3c54e9fg/2020_2_Programming%20Language%20for%20Data%20Analytics.pdf?dl=0), [Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/00_Syllabus.pdf), [Video](https://youtu.be/gcyQcI9qZPo))
 
 ## Final Scores
 * TBA
 
 ## Assignments
+- Assignment 5 ([download](https://www.dropbox.com/s/09drxkq710njcq4/2020_Assignment%205.pdf?dl=0))
+   * Due date: 2020-12-29 23:59
+   * Rmd files and its output html files must be submitted via e-mail: dsba.koreauniv@gmail.com
+   * Title format: Assignment number, student id, and name
+   * Example: A3_202012345_홍길동
+
 * Assignment 4 ([download](https://www.dropbox.com/s/wde7tq0aybk08xh/2020_Assignment%204.pdf?dl=0))
    * Due date: 2020-12-15 23:59
    * All required files must be compressed as a single zip file and should be submitted via e-mail: dsba.koreauniv@gmail.com
@@ -85,8 +91,4 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
 * ggplot2() Part 2: ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/07%20R%20Graphics/07-4_R%20Graphs_ggplot2_Part%202.pdf), [R Script](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/07%20R%20Graphics/07-4_R_Graphs_ggplot2_Part%202.R), [Video](https://youtu.be/AHvAgFiY908))
 
 ## R Documentation
-* Markdown syntax
-* R Notebook syntax
-* Output file configuration: HTML, PDF, etc.
-
-
+* Markdown syntax, R Notebook example ([Slide](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/08%20R%20Documentation/08_R%20Documentation.pdf), [Notebook](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/08%20R%20Documentation/08_R%20Notebook%20Example.Rmd), [Output file](https://github.com/pilsung-kang/R-for-Data-Analytics/blob/master/08%20R%20Documentation/08_R-Notebook-Example.html), [Video](https://youtu.be/r-uNkm3gtAg))
