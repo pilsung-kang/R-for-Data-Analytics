@@ -11,14 +11,14 @@ Course homepage of "Programming Language for Data Analytics" @Korea University
    * Due date: 2020-12-29 23:59
    * Rmd files and its output html files must be submitted via e-mail: dsba.koreauniv@gmail.com
    * Title format: Assignment number, student id, and name
-   * Example: A3_202012345_홍길동
+   * Example: A5_202012345_홍길동
 
 * Assignment 4 ([download](https://www.dropbox.com/s/wde7tq0aybk08xh/2020_Assignment%204.pdf?dl=0))
    * Due date: 2020-12-15 23:59
    * All required files must be compressed as a single zip file and should be submitted via e-mail: dsba.koreauniv@gmail.com
    * If necessary, use the comments to explain your answers (If you use Korean for comments (allowed), you must use UTF-8 encoding scheme for the script)
    * Title format: Assignment number, student id, and name
-   * Example: A3_202012345_홍길동
+   * Example: A4_202012345_홍길동
 
 * Assignment 3 ([download](https://www.dropbox.com/s/tqiiu2fgjmthexf/Assignment%203.zip?dl=0))
    * Due date: 2020-11-24 23:59
